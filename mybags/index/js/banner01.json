@@ -1,0 +1,145 @@
+{
+	"status":1,
+	"msg":"success",
+	"banner01data":[
+						{
+							"id":101,
+							"img":"../../common/images/banner-01.jpg"
+						},
+						{
+					 		"id":102,
+							"img":"../../common/images/banner-02.jpg"
+						},
+						{
+							"id":103,
+							"img":"../../common/images/banner-03.jpg"
+						}
+						
+					  ],
+	"banner02data":[
+						{"id":"103",
+						 "img":"../../common/images/952-440-1.jpg",
+						 "content":"双面佳人"							
+					     },
+					     {"id":"104",
+						 "img":"../../common/images/952-440-2.jpg"	,
+						 "content":"趣味emoji"							
+						 						
+					     },
+					     {"id":"105",
+						 "img":"../../common/images/952-440-3.jpg"	,
+						 "content":"洒脱旅行"							
+						 						
+					     },
+					     {"id":"106",
+						 "img":"../../common/images/952-440-4.jpg"	,
+						 "content":"少女环游记"							
+						 						
+					     },
+					     {"id":"107",
+						 "img":"../../common/images/952-440-5.jpg"	,
+						 "content":"幸运许愿星"							
+						 						
+					     }
+					],
+	"banner03data":[
+						{"id":"108",
+						 "img":"../../common/images/1-1704001901.jpg",
+						 "content":"轻盈好时髦"							
+					     },
+					     {"id":"109",
+						 "img":"../../common/images/1-9132562101.jpg"	,
+						 "content":"潮萌机器人"							
+						 						
+					     },
+					     {"id":"110",
+						 "img":"../../common/images/banner001.jpg"	,
+						 "content":"摩登鳄鱼纹"							
+						 						
+					     },
+					     {"id":"111",
+						 "img":"../../common/images/1-9132593002.jpg"	,
+						 "content":"酷感星光"							
+						 						
+					     },
+					     {"id":"112",
+						 "img":"../../common/images/1-1706000902.jpg"	,
+						 "content":"职场小心机"							
+						 						
+					     }
+					]	,					 
+	"banner04data":[
+						{"id":"113",
+						 "img":"../../common/images/2-1511011402.jpg",
+						 "content":"温柔优雅"							
+					     },
+					     {"id":"114",
+						 "img":"../../common/images/2-1704002101.jpg"	,
+						 "content":"温雅小女人"							
+						 						
+					     },
+					     {"id":"115",
+						 "img":"../../common/images/9132624901.jpg"	,
+						 "content":"精致气质"							
+						 						
+					     },
+					     {"id":"116",
+						 "img":"../../common/images/9132645501.jpg"	,
+						 "content":"线条美学"							
+						 						
+					     },
+					     {"id":"117",
+						 "img":"../../common/images/9132657003.jpg"	,
+						 "content":"皮艺风尚"		 					
+						 						
+					     }
+					],	
+	"banner05data":[
+						{"id":"118",
+						 "img":"../../common/images/3-1411000102.jpg",
+						 "content":"天生行动派"							
+					     },
+					     {"id":"119",
+						 "img":"../../common/images/3-1611008401.jpg"	,
+						 "content":"硬朗精英"							
+						 						
+					     },
+					     {"id":"120",
+						 "img":"../../common/images/3-1612004702.jpg"	,
+						 "content":"魅力法则"							
+						 						
+					     },
+					     {"id":"121",
+						 "img":"../../common/images/3-1604009101.jpg"	,
+						 "content":"帅气轻旅"							
+						 						
+					     },
+					     {"id":"122",
+						 "img":"../../common/images/3-1612004702.jpg"	,
+						 "content":"拒绝中庸"		 					
+						 						
+					     }
+					],
+	"banner06data":[
+						{"id":"123",
+						 "img":"../../common/images/5-041904.jpg",
+						 "content":"活力色彩"							
+					     },
+					     {"id":"124",
+						 "img":"../../common/images/5-1605002801.jpg"	,
+						 "content":"小怪兽大风头"							
+						 						
+					     },
+					     {"id":"125",
+						 "img":"../../common/images/952-440-2(2).jpg"	,
+						 "content":"奇幻鲨鱼"							
+						 						
+					     },
+					     {"id":"126",
+						 "img":"../../common/images/952-440-3(2).jpg"	,
+						 "content":"玩转拼接"							
+						 						
+					     }
+					]									
+
+}

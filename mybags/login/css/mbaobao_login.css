@@ -1,0 +1,156 @@
+#header-wrapper{
+	height: 83px;
+	width:100%;
+	border-bottom:2px solid #ed1c24;
+}
+#header-wrapper #header{
+	width:860px;
+	margin:0 auto;
+	height: 83px;
+}
+#header #login {
+padding-top:20px;
+	width:90px;	
+	height: 60px;
+	float: left;
+}
+#header #login h1{
+background:url(../../login/images/mbblogo.png)no-repeat;
+height: 60px;	
+}
+#header #login h1 a{
+	display: block;
+	text-indent: -9999px;
+}
+#header #feedback{
+	float: right;
+	width:245px;
+	font-size:12px ;
+	padding-top:50px;
+}
+#main-wrapper{
+	width:100%;
+	background: #fff;
+	padding-top:58px;
+	
+}
+#main-wrapper #main{
+	height: 304px;
+	width:860px;
+	margin:0 auto;
+	background: #f5f5f5;
+}
+/*登录背景图*/
+#main-wrapper #main #m_bg{
+	float: left;
+	width:497px;
+	height: 304px;	
+	background:url(../../login/images/loginimg01.jpg) no-repeat;
+}
+/*登录表单*/
+#main #m_form{
+	float: right;
+	padding:28px 20px;
+	width:320px;
+	height: 246px;
+	background: #f5f5f5;
+	border:1px solid #CCCCCC;
+	border-left: 0;
+}
+#main #m_form .title{
+	margin-bottom: 8px;
+}
+#main #m_form .title>h1{
+	width:58px;
+	float: left;
+	font-size: 14px;
+	color: #000000;
+}
+#main #m_form .title>p{
+	float: right;
+	font-size: 12px;
+}
+#main #m_form a{
+	color:#ff0000;
+	font-size: 12px;	
+}
+#main #m_form >form{
+	font-size: 14px;
+	padding:10px 0;
+	border-top:1px dashed #ccc;
+}
+#main #m_form >form ul>li{
+	margin:15px 0;
+}
+/*表单登录框*/
+form input{
+	width: 170px;
+	height: 25px;
+	border:1px solid #CCCCCC;	
+}
+/*马上登录*/
+form #logging{
+	display: block;
+	width: 100px;
+	height:30px;
+	background: #ff0000;
+	margin-left: 80px;
+	color: #fff;
+	border:none;
+	position: relative;
+	text-align: center;
+	line-height: 30px;
+	font-size: 12px;
+}
+#main #m_form .p1{
+	font-size: 12px;
+}
+#main #m_form .main_quick{
+	padding-top:10px;
+}
+#main #m_form .main_quick a{
+	display: inline-block;
+	color:#999;
+	border-right: 1px solid #999999;
+	padding-right:1px;
+}
+/*错误提示*/
+#main form #toast01{
+	color:#ed2a32;
+	display: none;
+}
+/*快速登录方式小图标*/
+#main #m_form .main_quick a:nth-child(1){
+	width:73px;
+	height: 20px;
+	background: url(../../common/images/login_single_page.png) no-repeat;
+	background-position:0 -42px ;
+}	
+#main #m_form .main_quick a:nth-child(2){
+	padding-left:15px;
+	width:22px;
+	height: 18px;
+	background: url(../../common/images/login_single_page.png) no-repeat;
+	background-position:0 -146px ;
+}
+#main #m_form .main_quick a:nth-child(3){
+	padding-left:18px;
+	width:48px;
+	height: 18px;
+	background: url(../../common/images/login_single_page.png) no-repeat;
+	background-position:0 -81px ;
+}
+#main #m_form .main_quick a:nth-child(4){
+	padding-left:15px;
+	width:50px;
+	height: 15px;
+	background: url(../../common/images/login_single_page.png) no-repeat;
+	background-position:0 -112px ;
+}
+#main #m_form .main_quick a:nth-child(5){
+	padding-left:16px;
+	width:30px;
+	height: 15px;
+	background: url(../../common/images/login_single_page.png) no-repeat;
+	background-position:0 -208px ;
+}

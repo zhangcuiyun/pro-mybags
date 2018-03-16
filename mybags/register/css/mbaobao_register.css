@@ -1,0 +1,94 @@
+.n_left .all_list{
+	display: none;
+}
+.n_left:hover .all_list{
+	display: block;
+}
+#main-wrapper{
+	width:100%;
+	background:#f0f0f0;
+	height: 452px;
+	
+}
+#main-wrapper #main{
+	width:964px;
+	height: 414px;
+	background:#fff;
+	margin:0 auto;
+}
+#main-wrapper #main h3{
+	padding:14px 20px;
+	border:1px solid #CCCCCC;
+	border-width: 1px 0;
+	font-size: 14px;
+	color:#333333;
+}
+#main-wrapper #main form{
+	padding:50px 0 0 257px;
+	
+	
+}
+form input{
+	border:1px solid #CCCCCC;
+	width:230px;
+	height: 30px;
+	margin-bottom: 15px;
+}
+#sub{
+	width:100px;
+	height: 30px;
+	background: #ff0000;
+	color: #fff;
+}
+#ckbox{
+	width:15px;
+	height:15px;
+}
+form b{
+	font-weight: 100;
+		font-size: 12px;
+}
+form strong{
+	font-weight: 100;
+	color:#d41c4f;
+	font-size: 12px;
+}
+#code_input{
+	width:100px;
+}
+#my_button{
+	 background:orange;
+	 color: #fff;
+	 border:none;
+	 width: 60px;
+	 height: 30px;
+	 line-height: 30px;
+	 border-radius: 10px;
+	 position: absolute;
+	 left:820px;
+}
+.intip{
+	display: inline-block;
+	width:150px;
+	height:20px;
+	color: red;
+	font-size: 12px;
+	padding-left: 10px;
+}
+em{
+display: inline-block;
+width:18px;
+height: 18px;
+
+
+}
+/*背景图打钩*/
+em.bg_y{
+background:url(../../register/images/yes.png) no-repeat;
+background-size: 18px 18px;
+}
+/*背景图打钩*/
+em.bg_n{
+background:url(../../register/images/no.png) no-repeat;
+background-size: 18px 18px;
+}

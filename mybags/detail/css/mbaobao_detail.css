@@ -1,0 +1,262 @@
+
+
+#nav .all_list{
+	display: none;
+}
+#nav .n_left:hover .all_list{
+	display: block;	
+	z-index: 100;
+}
+#main-wraper{
+	width: 100%;
+	height: 100%;
+	background: #f5f5f5;
+}
+#main-wraper #main{
+	width:1200px;
+	margin:0 auto;
+}
+#main-wraper #main p {
+	color: #000000;
+	padding: 10px;
+}
+#main-wraper #main p a{
+	display: inline-block;
+	margin:0 10px;
+	color: #000000;
+	
+}
+/*商品详情*/
+#main-wraper #main #detail{
+	padding-top:30px;
+	width: 966px;
+	height: 630px;
+	border:1px solid #ccc;
+	background: white;
+}
+/*放大镜左边*/
+#main #detail #detail_l{
+	width:516px;
+	height: 690px;
+	float: left;
+	position: relative;	
+}
+
+/*小图*/
+#middleImg{
+	width:400px;
+	height: 400px;
+	position: relative;
+	border:1px solid #CCCCCC;
+	left: 20px;
+	top:10px;
+}
+#middleImg img{
+	width:400px;
+	height: 400px;}
+/*小区域*/
+#main #detail #detail_l #middleArea{
+	width: 200px;
+	height: 200px;
+	background:rgba(100,200,100,0.3);
+	position: absolute;
+	top:0;
+	left: 0;
+	cursor: move;	
+	display:none;
+}
+
+/*大区域*/
+#main #detail #detail_l #bigArea{
+	position: absolute;
+	top: 0px;
+	left:510px;
+	border:1px solid #CCCCCC;
+	height:450px;
+	width: 450px;
+	overflow: hidden;
+	display:none;
+}
+#main #detail #detail_l #bigArea #bigImg{
+	width: 900px;
+	height: 900px;
+	position: absolute;
+	top:0;
+	left: 0;
+	
+}
+	/*小列表*/
+#main #detail #detail_l	#list {
+	width: 462px;
+	margin-top:50px ;
+	height:160px;
+}	
+#main #detail #detail_l	#list >li{
+	width: 60px;
+	height: 60px;
+	border:2px solid #CCCCCC;
+	float: left;
+	margin:10px 0 0 4px;
+	
+}
+/*放大镜右边*/
+#main #detail #detail_r{
+	width:450px;
+	float: right;
+	
+}
+#main #detail #detail_r >h3{
+	font-size: 14px;
+	
+}
+
+/*价格区*/
+#main #detail #detail_r .price{
+	border:1px solid #CCCCCC;
+	border-width:1px 0;
+}
+#main #detail #detail_r .price li{
+	padding-top:10px ;
+	float: left;
+	height: 120px;
+	margin-left:60px ;
+}
+/*麦包价*/
+#main #detail #detail_r li .mbj{
+	display: block;
+	margin:50px 0 0 55px;
+	font-size: 12px;
+	text-decoration: line-through;	
+}
+#main #detail #detail_r li>b{
+	font-size: 12px;
+	color:#dc224f;
+}
+#main #detail #detail_r li>strong{
+	font-size: 30px;
+	color:#dc224f;
+}
+#main #detail #detail_r .price li>.sm{
+	display: block;
+	font-size: 12px;
+	margin-left: 10px;
+	color:#333333;	
+}
+/*销售及评论*/
+#main #detail #detail_r .xs{
+	height: 74px;
+	border-bottom:1px solid #CCCCCC;
+	
+}
+#main #detail #detail_r .xs li{
+float: left;
+width: 222px;
+border-right:1px solid #CCCCCC;
+height: 64px;
+padding-top:10px;
+}
+#main #detail #detail_r .xs li>span,#main #detail #detail_r .xs li>a,#main #detail #detail_r .xs li>strong{
+	display: block;
+	text-align: center;
+	font-size: 16px;
+	
+}
+.p01{
+	margin-bottom:20px;
+}
+#main #detail #detail_r .p01>a{
+	border:1px solid #d41c50;
+	width: 40px;
+	height: 40px;
+	overflow: hidden;
+	line-height: 40px;
+	
+	
+}
+#main #detail #detail_r .p01 a>img{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+
+}
+#buy_method li {
+	float: left;
+	color:#fff;
+	font-size: 18px;
+}
+/*立即购买*/
+#buy_method li:nth-child(1){
+	width:232px;
+	height:40px;
+	background:url(../../common/images/item.png) no-repeat;
+	background-position:0 -108px;
+	margin-right: 20px;	
+}
+
+/*加入购物车*/
+#buy_method li:nth-child(2){
+	width:153px;
+	height:30px;
+	background:url(../../common/images/item.png) no-repeat;
+	background-position:0 -148px;	
+	margin-top: 5px;
+}
+#main-wraper #main #detail #detail_r .p02{
+	font-size: 12px;
+	color:#888;
+}
+#main-wraper #main #buy_tip{
+	position: absolute;
+	right:500px;
+	padding-top:20px;
+}
+
+#buy_tip .gobuy{
+	display: inline-block;
+	width:80px;
+	height: 30px;
+	line-height: 30px;
+	color:#fff;
+	text-align: center;
+	background:#d41c50;
+	margin-top:20px;
+	position: absolute;
+	top:0;
+	margin-left:40px;
+}
+/*商品详情*/
+#content-wrapper{
+	width:100%;
+	height: 100%;
+}
+#content-wrapper #content{
+	width:960px;
+	height: 800px;
+	margin:0 auto;
+	position: relative;
+	border-top:1px solid #000000;
+}
+#content-wrapper #content .lis{
+	position: absolute;
+	left: -120px;
+	 top: -30px;
+	 
+}
+#content-wrapper #content .lis li{
+	float: left;
+	width:80px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	border:1px solid #CCCCCC;
+	margin-left: 2px;
+}
+.bianhao li{
+	width:160px;
+	padding:4px 8px;
+	float: left;
+	font-size: 14px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	
+}

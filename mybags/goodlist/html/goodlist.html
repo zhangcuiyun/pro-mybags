@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html> 
+	<head>
+		<meta charset="UTF-8">
+		<title>商品列表</title>
+		<link href="../../common/css/reset.css" rel="stylesheet" type="text/css" />
+		<link href="../../common/css/mbaobao_common-1.0.0.0.css" rel="stylesheet" type="text/css" />
+		<link href="../../goodlist/css/mbaobao_goodlist.css" rel="stylesheet" type="text/css" />
+		<script src="../js/jquery-1.12.3.js"></script>
+		<script src="../js/jquery.cookie.js"></script>
+		<script src="../../common/js/common.js"></script>
+		<script src="../js/mbaobao_goodlist.js"></script>
+		
+	</head>
+	<body>
+		<!--导入头部-->
+		<div id="head_2"></div>
+		<!--导入回到顶部-->
+		<div id="gotop01"></div>
+		<div id="nav_2"></div>
+		<div id="main-wrapper">
+			<div id="main">
+				<!--标题栏-->
+				<div class="title">
+					<h2>选包中心:</h2>
+					<p>共有<b>524</b>件商品供您选购</p>
+				</div>
+				<!--左边-->
+				<div id="left">
+					<div id="shaixuan">
+						<p class="h_30">请设置筛选条件</p>
+						<ul class="base01">
+							<li>
+								<span style="color: deeppink;font-size: 16px;">分类</span><i class="iconfont arrow">&#xe71d;</i>
+								<i class="iconfont arrow1"></i>
+								<ul class="child1">
+									<li>全部</li>
+									<li>真皮女包</li>
+									<li>潮流女包</li>
+									<li>绅士男包</li>
+									<li>海外大牌</li>
+									<li>运动包</li>
+									<li>拉杆箱</li>
+									<li>儿童包</li>
+									<li>妈咪包</li>								
+								</ul>
+							</li>
+							<li>
+								<span style="color: deeppink;font-size: 16px;">人群</span>
+								<i class="iconfont arrow">&#xe71d;</i>
+								<i class="iconfont arrow1"></i>
+								<ul class="child2">
+									<li>全部</li>
+									<li>女士</li>
+									<li>男士</li>
+									<li>儿童</li>															
+								</ul>
+							</li>
+							<li>
+								<span>款式</span>
+								<i class="iconfont arrow">&#xe71d;</i>
+								<i class="iconfont arrow1"></i>
+								<ul class="child1">
+									<li>斜跨包</li>
+									<li>双肩包</li>
+									<li>单肩包</li>	
+									<li>单肩斜跨包</li>
+									<li>单肩手提包</li>
+									<li>手提包</li>
+									<li>公文包</li>
+									<li>手包</li>
+									<li>钱包</li>
+									<li>拉杆箱</li>
+								</ul>
+							</li>
+							<li>
+								<span>女品牌包</span>
+								<i class="iconfont arrow">&#xe71d;</i>
+								<i class="iconfont arrow1"></i>
+								<ul class="child1">
+									<li>mbaobao</li>
+									<li>浪美</li>
+									<li>阿尔法.阿蒂斯特</li>	
+									<li>麦包包（M Plus）</li>
+									<li>A&I</li>
+									<li>Bata拔佳</li>
+									<li>ELLE</li>
+									<li>澳洲袋鼠austarlion</li>
+									<li>Clous-Krause</li>
+									
+								</ul>
+							</li>
+							<li>
+								<span>男品牌包</span>
+								<i class="iconfont arrow">&#xe71d;</i>
+								<i class="iconfont arrow1"></i>
+								<ul>
+									<li>mbaobao</li>
+									<li>浪美</li>
+									<li>阿尔法.阿蒂斯特</li>	
+									<li>麦包包（M Plus）</li>
+									<li>A&I</li>
+									<li>Bata拔佳</li>
+									<li>ELLE</li>
+									<li>澳洲袋鼠austarlion</li>
+									<li>Clous-Krause</li>
+									
+								</ul>
+							</li>
+							<li>
+								<span>海外品牌</span>
+								<i class="iconfont arrow">&#xe71d;</i>
+								<i class="iconfont arrow1"></i>
+								<ul class="child1">
+									<li>mbaobao</li>
+									<li>浪美</li>
+									<li>阿尔法.阿蒂斯特</li>	
+									<li>麦包包（M Plus）</li>
+									<li>A&I</li>
+									<li>Bata拔佳</li>
+									<li>ELLE</li>
+									<li>澳洲袋鼠austarlion</li>
+									<li>Clous-Krause</li>
+									
+								</ul>
+							</li>
+							<li>
+								<span>运动包品牌</span>
+								<i class="iconfont arrow">&#xe71d;</i>
+								<i class="iconfont arrow1"></i>
+								<ul class="child1">
+									<li>mbaobao</li>
+									<li>浪美</li>
+									<li>阿尔法.阿蒂斯特</li>	
+									<li>麦包包（M Plus）</li>
+									<li>A&I</li>
+									<li>Bata拔佳</li>
+									<li>ELLE</li>
+									<li>澳洲袋鼠austarlion</li>
+									<li>Clous-Krause</li>
+									
+								</ul>
+							</li>
+							<li>
+								<span>旅行箱包品牌</span>
+								<i class="iconfont arrow">&#xe71d;</i>
+								<i class="iconfont arrow1"></i>
+								<ul class="child1">
+									<li>mbaobao</li>
+									<li>浪美</li>
+									<li>阿尔法.阿蒂斯特</li>	
+									<li>麦包包（M Plus）</li>
+									<li>A&I</li>
+									<li>Bata拔佳</li>
+									<li>ELLE</li>
+									<li>澳洲袋鼠austarlion</li>
+									<li>Clous-Krause</li>
+									
+								</ul>
+							</li>
+							<li>
+								<span>亲子包品牌</span>
+								<i class="iconfont arrow">&#xe71d;</i>
+								<i class="iconfont arrow1"></i>
+								<ul class="child1">
+									<li>mbaobao</li>
+									<li>浪美</li>
+									<li>阿尔法.阿蒂斯特</li>	
+									<li>麦包包（M Plus）</li>
+									<li>A&I</li>
+									<li>Bata拔佳</li>
+									<li>ELLE</li>
+									<li>澳洲袋鼠austarlion</li>
+									<li>Clous-Krause</li>
+									
+								</ul>
+							</li>
+							<li>
+								<span>材质</span>
+								<i class="iconfont arrow">&#xe71d;</i>
+								<i class="iconfont arrow1"></i>
+								<ul class="child1">
+									<li>mbaobao</li>
+									<li>浪美</li>
+									<li>阿尔法.阿蒂斯特</li>	
+									<li>麦包包（M Plus）</li>
+									<li>A&I</li>
+									<li>Bata拔佳</li>
+									<li>ELLE</li>
+									<li>澳洲袋鼠austarlion</li>
+									<li>Clous-Krause</li>
+									
+								</ul>
+							</li>
+							<li>
+								<span>价格</span>
+								<i class="iconfont arrow">&#xe71d;</i>
+								<i class="iconfont arrow1">&#xe71d;</i>
+								<ul class="child1">
+									<li>mbaobao</li>
+									<li>浪美</li>
+									<li>阿尔法.阿蒂斯特</li>	
+									<li>麦包包（M Plus）</li>
+									<li>A&I</li>
+									<li>Bata拔佳</li>
+									<li>ELLE</li>
+									<li>澳洲袋鼠austarlion</li>
+									<li>Clous-Krause</li>
+									
+								</ul>
+							</li>
+							<li>
+								<span>风格</span>
+								<i class="iconfont arrow">&#xe71d;</i>
+								<i class="iconfont arrow1">&#xe71d;</i>
+								<ul class="child1">
+									<li>mbaobao</li>
+									<li>浪美</li>
+									<li>阿尔法.阿蒂斯特</li>	
+									<li>麦包包（M Plus）</li>
+									<li>A&I</li>
+									<li>Bata拔佳</li>
+									<li>ELLE</li>
+									<li>澳洲袋鼠austarlion</li>
+									<li>Clous-Krause</li>
+									
+								</ul>
+							</li>
+							<li>
+								<span>流行元素</span>
+								<i class="iconfont arrow">&#xe71d;</i>
+								<i class="iconfont arrow1">&#xe71d;</i>
+								<ul class="child1">
+									<li>mbaobao</li>
+									<li>浪美</li>
+									<li>阿尔法.阿蒂斯特</li>	
+									<li>麦包包（M Plus）</li>
+									<li>A&I</li>
+									<li>Bata拔佳</li>
+									<li>ELLE</li>
+									<li>澳洲袋鼠austarlion</li>
+									<li>Clous-Krause</li>
+									
+								</ul>
+							</li>
+							<li>
+								<span>颜色</span>
+								<i class="iconfont arrow">&#xe71d;</i>
+								<i class="iconfont arrow1">&#xe71d;</i>
+								<ul class="child1">
+									<li>mbaobao</li>
+									<li>浪美</li>
+									<li>阿尔法.阿蒂斯特</li>	
+									<li>麦包包（M Plus）</li>
+									<li>A&I</li>
+									<li>Bata拔佳</li>
+									<li>ELLE</li>
+									<li>澳洲袋鼠austarlion</li>
+									<li>Clous-Krause</li>
+									
+								</ul>
+							</li>							
+						</ul>
+					</div>
+				</div>
+				<!--右边-->
+				<div id="right">
+					<p class="p01"><span>您的筛选条件</span><span class="tip" ></span><span class="tip1" ></span><span class="replace01">x全部重置</span></p>
+					<div class="pxmethod">
+						<!--<b>排序方式：</b>
+						<b class="c-red">默认</b>-->
+						<!--<span>最热销</span><i class="arrow_top"></i>-->
+						<em class="rq01" style="margin-right: 20px;">人气</em><!--<i class="arrow_top"></i>-->
+						<em>价格</em><i class="arrow_top"></i>
+						
+					</div>
+					<ul class="goods-list clear">
+						<!--<li>
+							<img src="../images/img01.jpg" />
+							<p class="titles"><a href="javascript:;">[麦包包(M Plus)]蕾丝精灵系列单肩包 </a></p>
+							<p>
+								<span class="showprice">￥414</span>
+								<span class="markprice">￥158</span>
+							</p>
+							<p >人气<span class="score">22</span></p>
+						</li>
+						<li>
+							<img src="../images/img02.jpg" />
+							<p class="titles"><a href="javascript:;">[麦包包(M Plus)]蕾丝精灵系列单肩包 </a></p>
+							<p>
+								<span class="showprice">￥414</span>
+								<span class="markprice">￥158</span>
+							</p>
+							<p>人气<span  class="score">22</span></p>
+						</li>
+						<li>
+							<img src="../images/img03.jpg" />
+							<p class="titles"><a href="javascript:;">[麦包包(M Plus)]蕾丝精灵系列单肩包 </a></p>
+							<p>
+								<span class="showprice">￥414</span>
+								<span class="markprice">￥158</span>
+							</p>
+							<p >人气<span class="score">22</span></p>
+						</li>
+						<li>
+							<img src="../images/img04.jpg" />
+							<p class="titles"><a href="javascript:;">[麦包包(M Plus)]蕾丝精灵系列单肩包 </a></p>
+							<p>
+								<span class="showprice">￥414</span>
+								<span class="markprice">￥158</span>
+							</p>
+							<p >人气<span class="score">22</span></p>
+						</li>
+						<li>
+							<img src="../images/img05.jpg" />
+							<p class="titles"><a href="javascript:;">[麦包包(M Plus)]蕾丝精灵系列单肩包 </a></p>
+							<p class="price">
+								<span class="showprice">￥414</span>
+								<span class="markprice">￥158</span>
+							</p>
+							<p >人气<span class="score">22</span></p>
+						</li>-->
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--导入底部导航-->
+		<div id="foot"></div>
+	</body>
+</html>

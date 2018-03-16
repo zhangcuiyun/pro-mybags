@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>麦包包购物车</title>
+		<link href="../../common/css/reset.css" rel="stylesheet" type="text/css" />
+		<link href="../../common/css/mbaobao_common-1.0.0.0.css" rel="stylesheet" type="text/css" />
+		<link href="../../shoppingcart/css/mbaobao_shoppingcart.css" rel="stylesheet" type="text/css" />
+		
+		<script src="../js/jquery-1.12.3.js"></script>
+		<script src="../js/jquery.cookie.js"></script>
+		<script src="../../common/js/common.js"></script>
+		<script src="../js/mbaobao_shoppingcart.js"></script>
+		
+	</head>
+	<body>
+		<div id="header-wrapper">
+			<div id="header">
+				<div id="login" title="欢迎来到麦包包">
+					<h1>
+						<a href="../../index/html/index.html">欢迎来到麦包包</a>
+					</h1>					
+				</div>
+				<div id="toast01">
+					<h2>购物车</h2>
+					<p><span class="username"></span>，您好，欢迎来到麦包包</p>
+				</div>
+				<div id="wuliu">
+					<ul id="list">
+						<li>1.采购信息</li>
+						<li>2.填写收货信息</li>
+						<li>3.支付</li>
+						<li>4.支付成功</li>						
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="main-wrapper">
+			<div id="main">
+				<div class="tip01">
+					<strong>温馨提示：</strong>
+					<span>加入购物车的商品无法为您保留库存，请及时下单购买，商品价格以订单提交时的价格为准</span>
+				</div>
+				<div id="goods">
+					<ul class="lists">
+						<li >
+							<input type="checkbox"  class="allcheck"/>全选
+						</li>
+						<li>商品名称</li>
+						<li>单价</li>
+						<li>数量</li>
+						<li>小计</li>
+						<li>操作</li>
+					</ul>
+					<!--商品详情-->
+					<ul class="lists01">
+						<!--<li class="clear">
+							<div>
+								<input type="checkbox" class="ckbox01" />
+							</div>
+							<div>
+								<img src="../../common/images/01.jpg"/>
+							</div>
+							<div>
+								<span>单肩复古小皮包单肩复古小皮包单肩复古小皮包</span><br />
+								<span>12723838</span>
+								
+							</div>
+							<div>
+								<b>￥</b><strong>234.00</strong>
+							</div>
+							<div>
+								<input id="add" type="text" value="-" />
+								<input id="num" type="text" value="10" />
+								<input id="reduce" type="text" value="+" />
+							</div>
+							<div>
+								<span>￥234.00</span>
+								<span class="del">删除</span>
+							</div>									
+						</li>
+						<li class="clear">
+							<div>
+								<input type="checkbox" class="ckbox01" />
+							</div>
+							<div>
+								<img src="../../common/images/01.jpg"/>
+							</div>
+							<div>
+								<span>单肩复古小皮包单肩复古小皮包单肩复古小皮包</span><br />
+								<span>12723838</span>
+								
+							</div>
+							<div>
+								<b>￥</b><strong>234.00</strong>
+							</div>
+							<div>
+								<input id="add" type="text" value="-" />
+								<input id="num" type="text" value="10" />
+								<input id="reduce" type="text" value="+" />
+							</div>
+							<div>
+								<span>￥234.00</span>
+								<span class="del">删除</span>
+							</div>									
+						</li>
+						<li class="clear">
+							<div>
+								<input type="checkbox" class="ckbox01" />
+							</div>
+							<div>
+								<img src="../../common/images/01.jpg"/>
+							</div>
+							<div>
+								<span>单肩复古小皮包单肩复古小皮包单肩复古小皮包</span><br />
+								<span>12723838</span>
+								
+							</div>
+							<div>
+								<b>￥</b><strong>234.00</strong>
+							</div>
+							<div>
+								<input id="add" type="text" value="-" />
+								<input id="num" type="text" value="10" />
+								<input id="reduce" type="text" value="+" />
+							</div>
+							<div>
+								<span>￥234.00</span>
+								<span class="del">删除</span>
+							</div>									
+						</li>
+						<li class="clear">
+							<div>
+								<input type="checkbox" class="ckbox01" />
+							</div>
+							<div>
+								<img src="../../common/images/01.jpg"/>
+							</div>
+							<div>
+								<span>单肩复古小皮包单肩复古小皮包单肩复古小皮包</span><br />
+								<span>12723838</span>
+								
+							</div>
+							<div>
+								<b>￥</b><strong>234.00</strong>
+							</div>
+							<div>
+								<input id="add" type="text" value="-" />
+								<input id="num" type="text" value="10" />
+								<input id="reduce" type="text" value="+" />
+							</div>
+							<div>
+								<span>￥234.00</span>
+								<span class="del">删除</span>
+							</div>									
+						</li>
+						<li class="clear">
+							<div>
+								<input type="checkbox" class="ckbox01" />
+							</div>
+							<div>
+								<img src="../../common/images/01.jpg"/>
+							</div>
+							<div>
+								<span>单肩复古小皮包单肩复古小皮包单肩复古小皮包</span><br />
+								<span>12723838</span>
+								
+							</div>
+							<div>
+								<b>￥</b><strong>234.00</strong>
+							</div>
+							<div>
+								<input id="add" type="text" value="-" />
+								<input id="num" type="text" value="10" />
+								<input id="reduce" type="text" value="+" />
+							</div>
+							<div>
+								<span>￥234.00</span>
+								<span class="del">删除</span>
+							</div>									
+						</li>-->
+					</ul>
+					<!--商品详情-->
+					
+					<div id="quan01">
+						<span>优惠券/现金券</span>
+						<input  type="text" style="border:1px solid #CCCCCC;height: 25px;width: 220px;"/>
+						<span style="display:inline-block;width:50px;height:25px;background: #CCCCCC;line-height: 25px;text-align: center;">使用</span>
+						<span style="color:#319ae1;font-size: 12px;">优惠券/现金券使用规则</span>
+					</div>
+					<div id="qjs">
+						<p>商品件数：<span class="allnum"><!--2--></span>件</p>
+						<p>商品总金额：（不含运费）：<strong class="total"><!--￥436.00--></strong></p>
+						<p>运费：<span class="yunfei">￥0.00</span></p>
+						<p class="enjoy">您可享受免运费服务</p>
+						<p class="puy">应付金额：<strong class="total"><!--￥436.00--></strong></p>
+						<p class="gpuy">￥去结算</p>
+					</div>
+				</div>
+				<p style="width:960px;height:2px;background: #ccc;"></p>
+			</div>
+		</div>
+		<!--底部-->
+		<div id="footer-wrapper">
+			<div id="footer">
+				<ul class="clear">
+					<li>
+						<a href="#">每周上新 领先时尚</a>
+					</li>
+					<li>
+						<a href="#">高性价比 品类齐全</a>
+					</li><li>
+						<a href="#">品牌正品 金牌服务</a>
+					</li><li>
+						<a href="#">专业配送 支持货到付款</a>
+					</li>
+					<li>
+						<a href="#">10天内无条件退换货</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="copright"> ©2007-2012 Mbaobao All Rights Reserved. 嘉兴市麦宝科技信息有限公司 版权所有，禁止非法复制 </div>
+		<div id="gotop01" class="clear"></div>
+	</body>
+</html>

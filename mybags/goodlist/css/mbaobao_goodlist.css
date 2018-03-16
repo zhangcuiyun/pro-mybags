@@ -1,0 +1,166 @@
+body{
+	font-size: 14px;
+}
+.all_list{
+	display: none;
+	z-index:1000;
+}
+#main-wrapper{
+	min-width:1400px;
+	height: 1200px;
+	background: #fff;
+}
+#main-wrapper #main{
+	width:1200px;
+	margin:0 auto;
+}
+#main .title{
+	padding:15px 0;
+}
+#main h2{
+	font-size: 18px;
+	float: left;
+	color:#ec1e22;
+}
+.title>p>b{
+	color:#d41c4f;
+	
+}
+/*左边*/
+#main #left{
+	width: 192px;
+	border-right: 1px solid #C9C9C9;
+	height:auto;
+	float: left;
+}
+#left #shaixuan{
+	height:auto;
+}
+#left #shaixuan .h_30{
+	height: 30px;
+	line-height: 30px;
+	width:183px;
+	padding-left: 10px;
+	color:#fff;
+	background: #666666;
+}
+/*第一个li*/
+#left #shaixuan .base01>li{
+	width:192px;
+	height: 32px;
+	line-height: 32px;
+	border-bottom: 1px solid #C9C9C9;
+	overflow: hidden;
+	position: relative;
+}
+
+#left #shaixuan .base01>li .arrow{
+	left:170px;
+	position: absolute;
+	top:5px;
+	z-index: 100px;
+}
+#left #shaixuan .base01>li .arrow1{
+	opacity: 0;
+	position: absolute;
+	top:10px;
+	left:170px;
+	display: inline-block;
+	width:10px;
+	height: 10px;
+	background:url(../images/arrow.png) no-repeat;
+	background-position: -296px -116px;
+}
+
+/*右边*/
+#main #right{
+	width:1000px;
+	height: auto;
+	float: right;
+}
+#main #right .p01{
+	width: 990px;
+	height: 30px;
+	line-height:30px;
+	font-weight: 600;
+	color:#000000;
+	background: #999999;
+	padding:0 10px;
+}
+#main #right .p01 .tip{
+	font-weight: 100;
+	margin-left: 100px;
+	color: orange;
+}
+#main #right .p01 .tip1{
+	font-weight: 100;
+	margin-left: 10px;
+	color: orange;
+}
+.replace01{
+	float: right;
+	font-weight: 100;
+	font-size: 12px;
+}
+.pxmethod {
+	width:1000px;
+	height: 30px;
+	line-height: 30px;
+	padding: 5px 0;
+	border-bottom: 1px solid red;
+}
+.pxmethod span{
+	margin-left: 10px;
+}
+.c-red{
+	color:red;
+}
+.arrow_top{
+	display: inline-block;
+	width:10px;
+	height: 10px;
+	color:red;
+	background: url(../images/arrow.png) no-repeat;
+	background-position:-296px -79px ;
+	margin-right: 10px;
+}
+.goods-list{
+	padding-top: 6px;
+}
+.goods-list li{
+	width:228px;
+	height: 280px;
+	float: left;
+	margin:10px 10px;
+	overflow: hidden;
+	text-align: center;
+}
+.goods-list li>img{
+	width:160px;
+	height:160px;
+	margin-bottom: 20px;
+	
+}
+.goods-list li .titles{
+	font-size: 12px;
+	margin-left: 8px;
+	margin-bottom: 10px;
+}
+.goods-list li .showprice{
+	color:#d41c4f;
+	margin-left: 10px;
+}
+.goods-list li .markprice{
+margin-left: 30px;
+	text-decoration: line-through;
+}
+.goods-list li .score{
+	margin-left:15px;
+	
+}
+.p1{
+	color: red;
+}
+.p3{
+	color:palegreen;
+}

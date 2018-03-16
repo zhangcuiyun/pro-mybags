@@ -1,0 +1,356 @@
+{
+	"status":1,
+	"msg":"success",
+	"shownew":[{"id":"101",
+				"img":"../../common/images/0111401.jpg"
+				},
+				{"id":"102",
+				"img":"../../common/images/0111403.jpg"
+				},
+				{"id":"103",
+				"img":"../../common/images/397-239.jpg"
+				}
+				
+				],
+				
+	"goods01":[
+				{
+					"id":1001,
+					"img":"../../detail/images/1_2.jpg",
+					"content":"[mbaobao]刺绣椰树系列 手提单肩斜挎包",
+					"showprice":"249.00",
+					"markprice":"388.00",
+					"unit":"￥",
+					"xsl":2,
+					"pl":1
+				},
+				{
+					"id":1002,
+					"img":"../../common/images/img01.jpg",
+					"content":"[mbaobao]撞色蝴蝶结系列 单肩斜挎包",
+					"showprice":"219.00",
+					"markprice":"328.00",
+					"unit":"￥",
+					"xsl":5,
+					"pl":2
+				},
+				{
+					"id":1003,
+					"img":"../../common/images/img02.jpg",
+					"content":"[mbaobao]刺绣花朵系列 单肩斜挎包",
+					"showprice":"89.00",
+					"markprice":"368.00",
+					"unit":"￥",
+					"xsl":6	,
+					"pl":3
+				},{
+					"id":1004,
+					"img":"../../common/images/img03.jpg",
+					"content":"[mbaobao]闪电猫系列 单肩斜挎包",
+					"showprice":"249.00",
+					"markprice":"388.00",
+					"unit":"￥",
+					"xsl":6	,
+					"pl":3
+				},{
+					"id":1005,
+					"img":"../../common/images/01.jpg",
+					"content":"[mbaobao]潇洒小姐系列双肩单肩多用包(小款）",
+					"showprice":"269.00",
+					"markprice":"468.00",
+					"unit":"￥",
+					"xsl":8,
+					"pl":6
+				},{
+					"id":1006,
+					"img":"../../common/images/01.jpg",
+					"content":"[mbaobao]潇洒小姐系列双肩单肩多用包(小款）",
+					"showprice":"249.00",
+					"markprice":"388.00",
+					"unit":"￥"	,
+					"xsl":14,
+					"pl":12
+				},{
+					"id":1007,
+					"img":"../../common/images/img05.jpg",
+					"content":"[mbaobao]复古方包系列 单肩斜挎包",
+					"showprice":"239.00",
+					"markprice":"368.00",
+					"unit":"￥",
+					"xsl":2	,
+					"pl":0
+				},{
+					"id":1008,
+					"img":"../../common/images/01_035.jpg",
+					"content":"[mbaobao]金属花朵系列 单肩斜挎包",
+					"showprice":"249.00",
+					"markprice":"828.00",
+					"unit":"￥",
+					"xsl":22,
+					"pl":12	
+				},{
+					"id":1009,
+					"img":"../../common/images/01_002.jpg",
+					"content":"[mbaobao]撞色蝴蝶结系列 手提单肩斜挎包",
+					"showprice":"219.00",
+					"markprice":"328.00",
+					"unit":"￥"	,
+					"xsl":20,
+					"pl":15
+				}
+			],
+	"goods02":[
+				{
+					"id":1010,
+					"img":"../../common/images/01.png",
+					"content":"[mbaobao]撞色鹦鹉系列手提单肩斜挎包",
+					"showprice":"￥89",
+					"markprice":"￥528"	
+				},
+				{
+					"id":1011,
+					"img":"../../common/images/img010.jpg",
+					"content":"[麦包包(M  Plus)]荔枝纹合成革系列 手提双肩包",
+					"showprice":"￥179",
+					"markprice":"￥678"	
+				},
+				{
+					"id":1012,
+					"img":"../../common/images/im011.jpg",
+					"content":"[mbaobao]玩味水桶系列单肩斜挎包",
+					"showprice":"￥89",
+					"markprice":"￥388"	
+				},{
+					"id":1013,
+					"img":"../../common/images/img012.jpg",
+					"content":"[mbaobao]迷你系列手提单肩斜挎包",
+					"showprice":"￥249",
+					"markprice":"￥388"	
+				},{
+					"id":1014,
+					"img":"../../common/images/img014.jpg",
+					"content":"[mbaobao]分层拼色系列单肩斜挎包",
+					"showprice":"￥279",
+					"markprice":"￥448"	
+				},{
+					"id":1015,
+					"img":"../../common/images/img015.jpg",
+					"content":"[mbaobao]蜥蜴纹手机包系列单肩斜挎包",
+					"showprice":"￥249",
+					"markprice":"￥388"	
+				},{
+					"id":1016,
+					"img":"../../common/images/img016.jpg",
+					"content":"[mbaobao]花朵钻饰系列单肩斜挎包",
+					"showprice":"￥89",
+					"markprice":"￥448"	
+				},{
+					"id":1017,
+					"img":"../../common/images/img017.jpg",
+					"content":"[mbaobao]笑脸手势挂件系列手提单肩斜挎包",
+					"showprice":"￥89",
+					"markprice":"￥368"	
+				},{
+					"id":1018,
+					"img":"../../common/images/img018.jpg",
+					"content":"[浪美]玩美机器人系列手提单肩斜挎包",
+					"showprice":"￥89",
+					"markprice":"￥368"	
+				},
+				{
+					"id":1019,
+					"img":"../../common/images/img019.jpg",
+					"content":"[mbaobao]浪漫定制系列 手提单肩斜挎包",
+					"showprice":"￥89",
+					"markprice":"￥338"	
+				}
+			],
+			"goods03":[
+				{
+					"id":1020,
+					"img":"../../common/images/img020.jpg",
+					"content":"[阿尔法·阿蒂斯特]纯色简约系列 手提单肩斜挎包",
+					"showprice":"￥89",
+					"markprice":"￥528"	
+				},
+				{
+					"id":1021,
+					"img":"../../common/images/img021.jpg",
+					"content":"[阿尔法·阿蒂斯特]新优雅系列多用包",
+					"showprice":"￥179",
+					"markprice":"￥678"	
+				},
+				{
+					"id":1022,
+					"img":"../../common/images/img22.jpg",
+					"content":"[阿尔法·阿蒂斯特]巴黎城记系列 单肩斜挎包",
+					"showprice":"￥89",
+					"markprice":"￥388"	
+				},{
+					"id":1023,
+					"img":"../../common/images/img024.jpg",
+					"content":"[阿尔法·阿蒂斯特]简约圆形扣系列 手提单肩斜挎包",
+					"showprice":"￥249",
+					"markprice":"￥388"	
+				},{
+					"id":1024,
+					"img":"../../common/images/img025.jpg",
+					"content":"[阿尔法·阿蒂斯特]布拉诺系列手提单肩斜挎包",
+					"showprice":"￥279",
+					"markprice":"￥448"	
+				},{
+					"id":1025,
+					"img":"../../common/images/img026.jpg",
+					"content":"[阿尔法·阿蒂斯特]简约弧形扣系列 手提单肩斜挎包",
+					"showprice":"￥249",
+					"markprice":"￥388"	
+				},{
+					"id":1026,
+					"img":"../../common/images/img027.jpg",
+					"content":"[阿尔法·阿蒂斯特]纯色经典翻盖系列 单肩斜挎包",
+					"showprice":"￥89",
+					"markprice":"￥448"	
+				},{
+					"id":1027,
+					"img":"../../common/images/img028.jpg",
+					"content":"[阿尔法·阿蒂斯特]时尚优雅系列 手提单肩斜挎包",
+					"showprice":"￥89",
+					"markprice":"￥368"	
+				},{
+					"id":1028,
+					"img":"../../common/images/img029.jpg",
+					"content":"[阿尔法·阿蒂斯特]时尚优雅系列 手提单肩斜挎包",
+					"showprice":"￥89",
+					"markprice":"￥368"	
+				}
+			],
+	"goods04":[
+				{
+					"id":1029,
+					"img":"../../common/images/01_034.jpg",
+					"content":"[戈尔本黑白系列 公文包",
+					"showprice":"￥449",
+					"markprice":"￥3328"	
+				},
+				{
+					"id":1030,
+					"img":"../../common/images/img035.jpg",
+					"content":"[戈尔本]经典系列拉杆箱 24寸",
+					"showprice":"￥179",
+					"markprice":"￥1388"	
+				},
+				{
+					"id":1031,
+					"img":"../../common/images/img036.jpg",
+					"content":"[戈尔本]自由梦想系列手提双肩背包",
+					"showprice":"￥89",
+					"markprice":"￥648"	
+				},{
+					"id":1032,
+					"img":"../../common/images/img037.jpg",
+					"content":"[戈尔本]经典本色系列 短款钱包",
+					"showprice":"￥159",
+					"markprice":"￥575"	
+				},{
+					"id":1033,
+					"img":"../../common/images/img038.jpg",
+					"content":"[戈尔本]逆平行系列单肩斜挎包",
+					"showprice":"￥229",
+					"markprice":"￥399"	
+				},{
+					"id":1034,
+					"img":"../../common/images/img040.jpg",
+					"content":"[戈尔本]双拉链系列 手提双肩包",
+					"showprice":"￥288",
+					"markprice":"￥3375"	
+				}
+			],
+	"goods05":[
+				{
+					"id":1035,
+					"img":"../../common/images/img45.jpg",
+					"content":"[希夏邦马]阿尔卑斯系列双肩包",
+					"showprice":"￥89",
+					"markprice":"￥328"	
+				},
+				{
+					"id":1036,
+					"img":"../../common/images/img46.jpg",
+					"content":"[希夏邦马]UP BUGS系列单肩包",
+					"showprice":"￥179",
+					"markprice":"￥129"	
+				},
+				{
+					"id":1037,
+					"img":"../../common/images/img47.jpg",
+					"content":"[希夏邦马]大口鲨鱼奇幻系列双肩包",
+					"showprice":"￥89",
+					"markprice":"￥129"	
+				},{
+					"id":1038,
+					"img":"../../common/images/img48.jpg",
+					"content":"[JanSport]超级叛逆系列双肩包",
+					"showprice":"￥189",
+					"markprice":"￥599"	
+				},{
+					"id":1039,
+					"img":"../../common/images/img49.jpg",
+					"content":"[Ego Products]Camo Cube 立体迷踪系列 双肩包 白",
+					"showprice":"￥129",
+					"markprice":"￥526"	
+				},{
+					"id":1040,
+					"img":"../../common/images/img50.jpg",
+					"content":"[希夏邦马]shark系列胸包",
+					"showprice":"￥89",
+					"markprice":"￥198"	
+				},{
+					"id":1041,
+					"img":"../../common/images/img51.jpg",
+					"content":"[Jansport]超级叛逆系列双肩包",
+					"showprice":"￥189",
+					"markprice":"￥359"	
+				},{
+					"id":1042,
+					"img":"../../common/images/img52.jpg",
+					"content":"[Ego Products]Flower 花系列 防水面料斜挎包",
+					"showprice":"￥129",
+					"markprice":"￥749"	
+				},{
+					"id":1043,
+					"img":"../../common/images/img53.jpg",
+					"content":"[希夏邦马]L！VE系列双肩包",
+					"showprice":"￥89",
+					"markprice":"￥149"	
+				}
+			],
+	"logos":[	
+				{
+					"id":1045,
+					"img":"../../common/images/pp11.jpg"
+				},
+				{
+					"id":1046,
+					"img":"../../common/images/pp2.jpg"
+				},
+				{
+					"id":1047,
+					"img":"../../common/images/pp3.jpg"
+				},
+				{
+					"id":1048,
+					"img":"../../common/images/pp4.jpg"
+				},
+				{
+					"id":1049,
+					"img":"../../common/images/pp5.jpg"
+				},
+				{
+					"id":1050,
+					"img":"../../common/images/pp6.jpg"
+				}
+			]		
+
+
+			
+}
